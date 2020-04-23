@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA59ECB2451A39B009A0EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59ECA2451A39B009A0EF5 /* AppDelegate.swift */; };
+		1AA59ECD2451A39B009A0EF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59ECC2451A39B009A0EF5 /* SceneDelegate.swift */; };
+		1AA59ECF2451A39B009A0EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59ECE2451A39B009A0EF5 /* ViewController.swift */; };
+		1AA59ED22451A39B009A0EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA59ED02451A39B009A0EF5 /* Main.storyboard */; };
+		1AA59ED52451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59ED32451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodeld */; };
+		1AA59ED72451A39D009A0EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA59ED62451A39D009A0EF5 /* Assets.xcassets */; };
+		1AA59EDA2451A39D009A0EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA59ED82451A39D009A0EF5 /* LaunchScreen.storyboard */; };
+		1AA59EE52451A39D009A0EF5 /* GPLChangeThemeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59EE42451A39D009A0EF5 /* GPLChangeThemeDemoTests.swift */; };
+		1AA59EF02451A39D009A0EF5 /* GPLChangeThemeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59EEF2451A39D009A0EF5 /* GPLChangeThemeDemoUITests.swift */; };
+		292766A3EE595E6CA08F8FFD /* Pods_GPLChangeThemeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B3C87B09A9A1E4658603F9 /* Pods_GPLChangeThemeDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AA59EE12451A39D009A0EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA59EBF2451A39B009A0EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA59EC62451A39B009A0EF5;
+			remoteInfo = GPLChangeThemeDemo;
+		};
+		1AA59EEC2451A39D009A0EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA59EBF2451A39B009A0EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA59EC62451A39B009A0EF5;
+			remoteInfo = GPLChangeThemeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA59EC72451A39B009A0EF5 /* GPLChangeThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPLChangeThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA59ECA2451A39B009A0EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AA59ECC2451A39B009A0EF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AA59ECE2451A39B009A0EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AA59ED12451A39B009A0EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AA59ED42451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPLChangeThemeDemo.xcdatamodel; sourceTree = "<group>"; };
+		1AA59ED62451A39D009A0EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA59ED92451A39D009A0EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AA59EDB2451A39D009A0EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA59EE02451A39D009A0EF5 /* GPLChangeThemeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPLChangeThemeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA59EE42451A39D009A0EF5 /* GPLChangeThemeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPLChangeThemeDemoTests.swift; sourceTree = "<group>"; };
+		1AA59EE62451A39D009A0EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA59EEB2451A39D009A0EF5 /* GPLChangeThemeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPLChangeThemeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA59EEF2451A39D009A0EF5 /* GPLChangeThemeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPLChangeThemeDemoUITests.swift; sourceTree = "<group>"; };
+		1AA59EF12451A39D009A0EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64AA3C8CED0DC7A1B7BAB0A0 /* Pods-GPLChangeThemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPLChangeThemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		64EAF0FD0BEAF4B3F5E466D2 /* Pods-GPLChangeThemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPLChangeThemeDemo.release.xcconfig"; path = "Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E3B3C87B09A9A1E4658603F9 /* Pods_GPLChangeThemeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPLChangeThemeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA59EC42451A39B009A0EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292766A3EE595E6CA08F8FFD /* Pods_GPLChangeThemeDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA59EDD2451A39D009A0EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA59EE82451A39D009A0EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA59EBE2451A39B009A0EF5 = {
+			isa = PBXGroup;
+			children = (
+				1AA59EC92451A39B009A0EF5 /* GPLChangeThemeDemo */,
+				1AA59EE32451A39D009A0EF5 /* GPLChangeThemeDemoTests */,
+				1AA59EEE2451A39D009A0EF5 /* GPLChangeThemeDemoUITests */,
+				1AA59EC82451A39B009A0EF5 /* Products */,
+				AFA6D61AF51B22663BCA68C2 /* Pods */,
+				678DE8366762A18DF8E21951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA59EC82451A39B009A0EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA59EC72451A39B009A0EF5 /* GPLChangeThemeDemo.app */,
+				1AA59EE02451A39D009A0EF5 /* GPLChangeThemeDemoTests.xctest */,
+				1AA59EEB2451A39D009A0EF5 /* GPLChangeThemeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA59EC92451A39B009A0EF5 /* GPLChangeThemeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AA59ECA2451A39B009A0EF5 /* AppDelegate.swift */,
+				1AA59ECC2451A39B009A0EF5 /* SceneDelegate.swift */,
+				1AA59ECE2451A39B009A0EF5 /* ViewController.swift */,
+				1AA59ED02451A39B009A0EF5 /* Main.storyboard */,
+				1AA59ED62451A39D009A0EF5 /* Assets.xcassets */,
+				1AA59ED82451A39D009A0EF5 /* LaunchScreen.storyboard */,
+				1AA59EDB2451A39D009A0EF5 /* Info.plist */,
+				1AA59ED32451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodeld */,
+			);
+			path = GPLChangeThemeDemo;
+			sourceTree = "<group>";
+		};
+		1AA59EE32451A39D009A0EF5 /* GPLChangeThemeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AA59EE42451A39D009A0EF5 /* GPLChangeThemeDemoTests.swift */,
+				1AA59EE62451A39D009A0EF5 /* Info.plist */,
+			);
+			path = GPLChangeThemeDemoTests;
+			sourceTree = "<group>";
+		};
+		1AA59EEE2451A39D009A0EF5 /* GPLChangeThemeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AA59EEF2451A39D009A0EF5 /* GPLChangeThemeDemoUITests.swift */,
+				1AA59EF12451A39D009A0EF5 /* Info.plist */,
+			);
+			path = GPLChangeThemeDemoUITests;
+			sourceTree = "<group>";
+		};
+		678DE8366762A18DF8E21951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3B3C87B09A9A1E4658603F9 /* Pods_GPLChangeThemeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFA6D61AF51B22663BCA68C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64AA3C8CED0DC7A1B7BAB0A0 /* Pods-GPLChangeThemeDemo.debug.xcconfig */,
+				64EAF0FD0BEAF4B3F5E466D2 /* Pods-GPLChangeThemeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA59EC62451A39B009A0EF5 /* GPLChangeThemeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA59EF42451A39D009A0EF5 /* Build configuration list for PBXNativeTarget "GPLChangeThemeDemo" */;
+			buildPhases = (
+				13677CAAD2FFD86B3DA11A79 /* [CP] Check Pods Manifest.lock */,
+				1AA59EC32451A39B009A0EF5 /* Sources */,
+				1AA59EC42451A39B009A0EF5 /* Frameworks */,
+				1AA59EC52451A39B009A0EF5 /* Resources */,
+				2048D39C11DC113F92274BEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPLChangeThemeDemo;
+			productName = GPLChangeThemeDemo;
+			productReference = 1AA59EC72451A39B009A0EF5 /* GPLChangeThemeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AA59EDF2451A39D009A0EF5 /* GPLChangeThemeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA59EF72451A39D009A0EF5 /* Build configuration list for PBXNativeTarget "GPLChangeThemeDemoTests" */;
+			buildPhases = (
+				1AA59EDC2451A39D009A0EF5 /* Sources */,
+				1AA59EDD2451A39D009A0EF5 /* Frameworks */,
+				1AA59EDE2451A39D009A0EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AA59EE22451A39D009A0EF5 /* PBXTargetDependency */,
+			);
+			name = GPLChangeThemeDemoTests;
+			productName = GPLChangeThemeDemoTests;
+			productReference = 1AA59EE02451A39D009A0EF5 /* GPLChangeThemeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AA59EEA2451A39D009A0EF5 /* GPLChangeThemeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA59EFA2451A39D009A0EF5 /* Build configuration list for PBXNativeTarget "GPLChangeThemeDemoUITests" */;
+			buildPhases = (
+				1AA59EE72451A39D009A0EF5 /* Sources */,
+				1AA59EE82451A39D009A0EF5 /* Frameworks */,
+				1AA59EE92451A39D009A0EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AA59EED2451A39D009A0EF5 /* PBXTargetDependency */,
+			);
+			name = GPLChangeThemeDemoUITests;
+			productName = GPLChangeThemeDemoUITests;
+			productReference = 1AA59EEB2451A39D009A0EF5 /* GPLChangeThemeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA59EBF2451A39B009A0EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = gupengling;
+				TargetAttributes = {
+					1AA59EC62451A39B009A0EF5 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					1AA59EDF2451A39D009A0EF5 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 1AA59EC62451A39B009A0EF5;
+					};
+					1AA59EEA2451A39D009A0EF5 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 1AA59EC62451A39B009A0EF5;
+					};
+				};
+			};
+			buildConfigurationList = 1AA59EC22451A39B009A0EF5 /* Build configuration list for PBXProject "GPLChangeThemeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA59EBE2451A39B009A0EF5;
+			productRefGroup = 1AA59EC82451A39B009A0EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA59EC62451A39B009A0EF5 /* GPLChangeThemeDemo */,
+				1AA59EDF2451A39D009A0EF5 /* GPLChangeThemeDemoTests */,
+				1AA59EEA2451A39D009A0EF5 /* GPLChangeThemeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA59EC52451A39B009A0EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA59EDA2451A39D009A0EF5 /* LaunchScreen.storyboard in Resources */,
+				1AA59ED72451A39D009A0EF5 /* Assets.xcassets in Resources */,
+				1AA59ED22451A39B009A0EF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA59EDE2451A39D009A0EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA59EE92451A39D009A0EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13677CAAD2FFD86B3DA11A79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPLChangeThemeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2048D39C11DC113F92274BEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA59EC32451A39B009A0EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA59ED52451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodeld in Sources */,
+				1AA59ECF2451A39B009A0EF5 /* ViewController.swift in Sources */,
+				1AA59ECB2451A39B009A0EF5 /* AppDelegate.swift in Sources */,
+				1AA59ECD2451A39B009A0EF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA59EDC2451A39D009A0EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA59EE52451A39D009A0EF5 /* GPLChangeThemeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA59EE72451A39D009A0EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA59EF02451A39D009A0EF5 /* GPLChangeThemeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA59EE22451A39D009A0EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AA59EC62451A39B009A0EF5 /* GPLChangeThemeDemo */;
+			targetProxy = 1AA59EE12451A39D009A0EF5 /* PBXContainerItemProxy */;
+		};
+		1AA59EED2451A39D009A0EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AA59EC62451A39B009A0EF5 /* GPLChangeThemeDemo */;
+			targetProxy = 1AA59EEC2451A39D009A0EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AA59ED02451A39B009A0EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA59ED12451A39B009A0EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AA59ED82451A39D009A0EF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA59ED92451A39D009A0EF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA59EF22451A39D009A0EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AA59EF32451A39D009A0EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AA59EF52451A39D009A0EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AA3C8CED0DC7A1B7BAB0A0 /* Pods-GPLChangeThemeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLChangeThemeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinkb.GPLChangeThemeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AA59EF62451A39D009A0EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EAF0FD0BEAF4B3F5E466D2 /* Pods-GPLChangeThemeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLChangeThemeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinkb.GPLChangeThemeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AA59EF82451A39D009A0EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLChangeThemeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinkb.GPLChangeThemeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPLChangeThemeDemo.app/GPLChangeThemeDemo";
+			};
+			name = Debug;
+		};
+		1AA59EF92451A39D009A0EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLChangeThemeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinkb.GPLChangeThemeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPLChangeThemeDemo.app/GPLChangeThemeDemo";
+			};
+			name = Release;
+		};
+		1AA59EFB2451A39D009A0EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLChangeThemeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinkb.GPLChangeThemeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPLChangeThemeDemo;
+			};
+			name = Debug;
+		};
+		1AA59EFC2451A39D009A0EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLChangeThemeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinkb.GPLChangeThemeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPLChangeThemeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA59EC22451A39B009A0EF5 /* Build configuration list for PBXProject "GPLChangeThemeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA59EF22451A39D009A0EF5 /* Debug */,
+				1AA59EF32451A39D009A0EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA59EF42451A39D009A0EF5 /* Build configuration list for PBXNativeTarget "GPLChangeThemeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA59EF52451A39D009A0EF5 /* Debug */,
+				1AA59EF62451A39D009A0EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA59EF72451A39D009A0EF5 /* Build configuration list for PBXNativeTarget "GPLChangeThemeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA59EF82451A39D009A0EF5 /* Debug */,
+				1AA59EF92451A39D009A0EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA59EFA2451A39D009A0EF5 /* Build configuration list for PBXNativeTarget "GPLChangeThemeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA59EFB2451A39D009A0EF5 /* Debug */,
+				1AA59EFC2451A39D009A0EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AA59ED32451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AA59ED42451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodel */,
+			);
+			currentVersion = 1AA59ED42451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodel */;
+			path = GPLChangeThemeDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AA59EBF2451A39B009A0EF5 /* Project object */;
+}
