@@ -148,12 +148,20 @@
 		1ADEFA372452912B00EE7C50 /* GPLChangeTheme */ = {
 			isa = PBXGroup;
 			children = (
+				1ADEFA402452E66700EE7C50 /* Tools+Extention */,
 				1ADEFA382452912B00EE7C50 /* Theme_Protocol.swift */,
 				1ADEFA392452912B00EE7C50 /* ThemeKit+Extension.swift */,
 				1ADEFA3A2452912B00EE7C50 /* ChooseSkin.swift */,
 			);
 			name = GPLChangeTheme;
 			path = ../../GPLChangeTheme;
+			sourceTree = "<group>";
+		};
+		1ADEFA402452E66700EE7C50 /* Tools+Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools+Extention";
 			sourceTree = "<group>";
 		};
 		678DE8366762A18DF8E21951 /* Frameworks */ = {
@@ -529,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BEVZGB29V;
 				INFOPLIST_FILE = GPLChangeThemeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -548,6 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BEVZGB29V;
 				INFOPLIST_FILE = GPLChangeThemeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
