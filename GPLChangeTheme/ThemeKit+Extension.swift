@@ -23,8 +23,15 @@ extension NSObject {
         }
     }
 
+    @available(iOS 12.0, *)
     public func getCurrentMode() -> UIUserInterfaceStyle {
-        let current = UITraitCollection.current.userInterfaceStyle
+        var current = UIUserInterfaceStyle.light
+        if #available(iOS 13.0, *) {
+            current = UITraitCollection.current.userInterfaceStyle
+        } else {
+            // Fallback on earlier versions
+
+        }
         return current
     }
 }
@@ -51,18 +58,22 @@ extension UINavigationController {
     }
 }
 
-class BaseVC: UIViewController {
-    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        super.traitCollectionDidChange(previousTraitCollection)
-        let xx = getCurrentMode()
-        if xx == .light {
-            print("浅色模式")
-            ThemeServiceManager.shared.refresh(data: ThemeConfig.default)
-        } else if xx == .dark {
-            print("深色模式")
-            ThemeServiceManager.shared.refresh(data: ThemeConfig.dark)
-        } else {
-            print("未知")
-        }
-    }
-}
+//class BaseVC: UIViewController {
+//    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+//        super.traitCollectionDidChange(previousTraitCollection)
+//        if #available(iOS 12.0, *) {
+//            let xx = getCurrentMode()
+//        } else {
+//            // Fallback on earlier versions
+//        }
+//        if xx == .light {
+//            print("浅色模式")
+//            ThemeServiceManager.shared.refresh(data: ThemeConfig.default)
+//        } else if xx == .dark {
+//            print("深色模式")
+//            ThemeServiceManager.shared.refresh(data: ThemeConfig.dark)
+//        } else {
+//            print("未知")
+//        }
+//    }
+//}
