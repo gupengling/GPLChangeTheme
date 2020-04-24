@@ -19,6 +19,7 @@
 		1ADEFA3B2452912B00EE7C50 /* Theme_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADEFA382452912B00EE7C50 /* Theme_Protocol.swift */; };
 		1ADEFA3C2452912B00EE7C50 /* ThemeKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADEFA392452912B00EE7C50 /* ThemeKit+Extension.swift */; };
 		1ADEFA3D2452912B00EE7C50 /* ChooseSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADEFA3A2452912B00EE7C50 /* ChooseSkin.swift */; };
+		1ADEFA422452ED8000EE7C50 /* Object+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADEFA412452ED8000EE7C50 /* Object+Extention.swift */; };
 		292766A3EE595E6CA08F8FFD /* Pods_GPLChangeThemeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B3C87B09A9A1E4658603F9 /* Pods_GPLChangeThemeDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		1ADEFA382452912B00EE7C50 /* Theme_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme_Protocol.swift; sourceTree = "<group>"; };
 		1ADEFA392452912B00EE7C50 /* ThemeKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThemeKit+Extension.swift"; sourceTree = "<group>"; };
 		1ADEFA3A2452912B00EE7C50 /* ChooseSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSkin.swift; sourceTree = "<group>"; };
+		1ADEFA412452ED8000EE7C50 /* Object+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Object+Extention.swift"; sourceTree = "<group>"; };
 		64AA3C8CED0DC7A1B7BAB0A0 /* Pods-GPLChangeThemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPLChangeThemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		64EAF0FD0BEAF4B3F5E466D2 /* Pods-GPLChangeThemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPLChangeThemeDemo.release.xcconfig"; path = "Target Support Files/Pods-GPLChangeThemeDemo/Pods-GPLChangeThemeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3B3C87B09A9A1E4658603F9 /* Pods_GPLChangeThemeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPLChangeThemeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +162,7 @@
 		1ADEFA402452E66700EE7C50 /* Tools+Extention */ = {
 			isa = PBXGroup;
 			children = (
+				1ADEFA412452ED8000EE7C50 /* Object+Extention.swift */,
 			);
 			path = "Tools+Extention";
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA59ED52451A39B009A0EF5 /* GPLChangeThemeDemo.xcdatamodeld in Sources */,
+				1ADEFA422452ED8000EE7C50 /* Object+Extention.swift in Sources */,
 				1ADEFA3B2452912B00EE7C50 /* Theme_Protocol.swift in Sources */,
 				1ADEFA3C2452912B00EE7C50 /* ThemeKit+Extension.swift in Sources */,
 				1AA59ECF2451A39B009A0EF5 /* ViewController.swift in Sources */,

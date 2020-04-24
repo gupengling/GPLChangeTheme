@@ -67,7 +67,7 @@ class ViewController: BaseAutoChangeSkinVC {
         let lable = UILabel(frame: CGRect(x: 100, y: 300, width: 100, height: 50))
         lable.font = UIFont.systemFont(ofSize: 20)
         view.addSubview(lable)
-        lable.theme.setRefreshThemeBlock {[weak self](now: Any, pre: Any?) in
+        lable.theme.setRefreshThemeBlock {(now: Any, pre: Any?) in
             if ThemeHelper<String>.current == ThemeConfig.default {
                 lable.text = "白色模式"
                 lable.textColor = .red
@@ -79,7 +79,7 @@ class ViewController: BaseAutoChangeSkinVC {
 
         btnSave.frame = CGRect(x: 200, y: 500, width: 50, height: 50)
         btnSave.setTitle("save", for: .normal)
-        btnSave.backgroundColor = UIColor.yellow
+        btnSave.backgroundColor = .yellow
         btnSave.setTitleColor(UIColor.blue, for: .normal)
         btnSave.addTarget(self, action: #selector(save(_:)), for: .touchUpInside)
         view.addSubview(btnSave)
