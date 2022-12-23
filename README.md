@@ -1,2 +1,2 @@
 # GPLChangeTheme
-swift change skin solution
+change skin solution

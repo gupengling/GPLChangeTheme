@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.name         = "GPLChangeTheme"
   s.version      = "1.0.1"
-  s.summary      = "swift change skin solution"
-  s.swift_version = '5.0'
+  s.summary      = "change skin solution"
+#  s.swift_version = '5.0'
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -65,10 +65,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "GPLChangeTheme/*.{swift}"
+  #s.source_files  =  "GPLChangeTheme/*.{swift,h,m}"
   #s.exclude_files = "Classes/Exclude"
   #s.public_header_files = "Classes/**/*.h"
 
@@ -132,6 +132,22 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "AFNetworking", "~> 3.1.0"
-
+  #s.dependency "AFNetworking", "~> 3.1.0"
+  s.static_framework = true
+  s.requires_arc = true
+  s.default_subspec = 'OC'
+  s.frameworks = ['UIKit']
+#  s.source       = {
+#     :git => "http://github/UIKitExtentions.git",
+#     :tag => "#{s.version}",
+#     :submodules => true
+#  }
+  
+  s.subspec 'OC' do |deft|
+    deft.source_files = 'GPLChangeThemeOC','GPLChangeTheme/GPLChangeThemeOC/**/*.{h,m,swift}'
+  end
+  
+  s.subspec 'Swift' do |deft|
+    deft.source_files = 'GPLChangeThemeSwift','GPLChangeTheme/GPLChangeThemeSwift/**/*.{h,m,swift}'
+  end
 end
